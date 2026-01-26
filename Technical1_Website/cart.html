@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>User Profile | Lutong Bahay</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lutong Bahay | Shopping Cart</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-<header>
+    <header>
         <img src="images/lutong_bahay_logo.jpg" alt="Lutong Bahay Logo" class="logo">
-        <h1>User Profile</h1>
+        <h1>Shopping Cart</h1>
     </header>
 
     <div class="container">
@@ -24,16 +26,22 @@
         </nav>
 
         <main class="content">
-            <p><strong>First Name:</strong> Juan</p>
-            <p><strong>Last Name:</strong> Dela Cruz</p>
-            <p><strong>Email:</strong> juan@email.com</p>
-            <p><strong>Mobile:</strong> 0912-345-6789</p>
-            <p><strong>Address:</strong> Quezon City, Philippines</p>
+            <h2>My Cart</h2>
+
+            <ul id="cartItems"></ul>
+            <p id="total"></p>
+
+            <a href="payment.html">
+                <button>Proceed to Checkout</button>
+            </a>
         </main>
     </div>
+
+    <script src="js/cart.js"></script>
+    <script src="js/cartDisplay.js"></script>
+
     <footer>
         <p>© 2026 Lutong Bahay. All rights reserved.</p>
         <p>Email: lutongbahay@gmail.com | Phone: 0955-143-1321</p>
-    </footer>
+    </footer>  
 </body>
-</html>
