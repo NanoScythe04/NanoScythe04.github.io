@@ -21,9 +21,13 @@ $.ajax({
                         <div class="review">
                             ⭐ ${review.rating} - ${review.comment}
                             <br>
+                            <small>${review.date}</small>
+                            <br>
                             <small><strong>${review.reviewerName}</strong></small>
                             <br>
-                            <small style="color:black;">${review.reviewerEmail}</small>
+                            <small>${review.reviewerEmail}</small>
+                            <br>
+                            
                         </div>
                     `;
                 });
